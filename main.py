@@ -31,7 +31,7 @@ def hack():
     exec(open("./bruteforce_D.py").read())
     
   if hack_type == 3:
-    exec(open("BLABLABLA.py").read())
+    exec(open("bruteforce_spe.py").read())
 
 
 def osint():
