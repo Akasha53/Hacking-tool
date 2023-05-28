@@ -33,8 +33,6 @@ input_messageBox = driver.find_element(by=By.XPATH,
                                        value=input_xpath_messageBox)
 time.sleep(timeSleep)
 
-print("S'il vous plait, entrez l'indentifiant")
-input()
 print("Le processus peut commencer")
 
 for word in mdps:
