@@ -23,9 +23,9 @@ def hack():
     ))
 
   if hack_type == 1:
-    exec(open("./bruteforce_c.py").read())
+    exec(open("./tools/brutforce/classical").read())
   elif hack_type == 2:
-    exec(open("./bruteforce_D.py").read())
+    exec(open("./tools/brutforce/dictionary.py").read())
   elif hack_type == 3:
     exec(open("bruteforce_spe.py").read())
   elif hack_type == 4:
