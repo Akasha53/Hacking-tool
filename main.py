@@ -44,9 +44,9 @@ def decode():
   decode_type = int(
     input("What useful tools?\n 1: Caesar's code\n 2: Caesar's decode\n>> "))
   if decode_type == 1:
-    exec(open("./cesar.py").read())
+    exec(open("tools\decoder\cesar\cesar.py").read())
   elif decode_type == 2:
-    exec(open("./decesar.py").read())
+    exec(open("tools\decoder\cesar\decesar.pyaaa").read())
   else:
     print("Invalid decode type.")
 
