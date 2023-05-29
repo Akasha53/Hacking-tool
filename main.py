@@ -23,13 +23,13 @@ def hack():
     ))
 
   if hack_type == 1:
-    exec(open("./tools/brutforce/classical").read())
+    exec(open("./tools/bruteforce/classical.py").read())
   elif hack_type == 2:
-    exec(open("./tools/brutforce/dictionary.py").read())
+    exec(open("./tools/bruteforce/dictionary.py").read())
   elif hack_type == 3:
-    exec(open("bruteforce_spe.py").read())
+    exec(open("./tools/bruteforce/special.py").read())
   elif hack_type == 4:
-    exec(open("bruteforce_spe_smart.py").read())
+    exec(open("./tools/bruteforce/special_smart.py").read())
   else:
     print("Invalid hack type.")
 
