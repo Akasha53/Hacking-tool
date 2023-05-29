@@ -14,7 +14,7 @@ liste = [
   '9', '0', '!', '@', '*', '?', '§', '%', '$', '£', 'µ'
 ]
 
-f = open("french_passwords_top20000.txt", "r")
+f = open("passwords\french_passwords_top20000.txt", "r")
 mdps = f.read().split("\n")
 f.close()
 
