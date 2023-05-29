@@ -19,6 +19,8 @@ To use the code you will need to download some packages like:
 You will need, for the bruteforce_c.py, to follow the instruction to have the program work:
 - bla
 
+You will need a external libraries :
+- selenium : pip install selenium
 
 # Our Discord Server
 ================================================================================
