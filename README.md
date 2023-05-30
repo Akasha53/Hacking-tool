@@ -10,7 +10,7 @@
 
 ```
 
-# How to use ?
+# How to use?
 ================================================================================
 To use the code you will need to download some packages like:
 - Selenium
