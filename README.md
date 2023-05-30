@@ -16,11 +16,14 @@ To use the code you will need to download some packages like:
 - Selenium
 - Time
 
-You will need, for the bruteforce_c.py, to follow the instruction to have the program work:
-- bla
+You will need, for the bruteforces, to follow the instruction to have the program work:
+- one go to the website
+- then copy the xpath of the fill to bruteforce
+- press enter, then the program will start, enjoy!
 
-You will need a external libraries :
-- selenium : pip install selenium
+You will need external libraries:
+to install it copy and paste this in your terminal:
+requirements.txt
 
 # Our Discord Server
 ================================================================================
