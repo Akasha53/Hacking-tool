@@ -23,7 +23,7 @@ You will need, for the bruteforces, to follow the instruction to have the progra
 
 You will need external libraries:
 to install it copy and paste this in your terminal:
-requirements.txt
+pip install requirements.txt
 
 # Our Discord Server
 ================================================================================
