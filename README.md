@@ -27,6 +27,7 @@ pip install requirements.txt
 
 # Our Discord Server
 ================================================================================
+
 https://discord.gg/2dNwd6YeWJ
 
 
