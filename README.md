@@ -11,7 +11,7 @@
 ```
 
 # How to use?
-===================================================================
+================================================================
 To use the code you will need to download some packages like:
 - Selenium
 - Time
@@ -26,7 +26,7 @@ to install it copy and paste this in your terminal:
 pip install requirements.txt
 
 # Our Discord Server
-===================================================================
+================================================================
 
 https://discord.gg/2dNwd6YeWJ
 
