@@ -46,7 +46,7 @@ def decode():
   if decode_type == 1:
     exec(open("tools\decoder\cesar\cesar.py").read())
   elif decode_type == 2:
-    exec(open("tools\decoder\cesar\decesar.pyaaa").read())
+    exec(open("tools\decoder\cesar\decesar.py").read())
   else:
     print("Invalid decode type.")
 
