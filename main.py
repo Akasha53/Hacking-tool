@@ -1,8 +1,7 @@
 def main():
-  surname = input("What is your surname?\n>> ")
   function = int(
     input(
-      "Welcome, " + surname +
+      "Welcome, "
       "! What do you want to do today?\n 1: hack\n 2: osint\n 3: code & decode\n>> "
     ))
 
