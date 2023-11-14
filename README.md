@@ -16,7 +16,7 @@ To use the code you will need to download some packages, to install them copy an
 
 - pip install requirements.txt
 
-You will need, for the bruteforces, to follow the instruction to have the program work:
+You will need, for the bruteforces, to follow the instructions bellow to have the program working as you wish:
 - one go to the website
 - then copy the xpath of the fill to bruteforce
 - press enter, then the program will start, enjoy!
