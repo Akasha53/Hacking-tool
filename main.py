@@ -42,13 +42,17 @@ def osint():
 
 def decode():
   decode_type = int(
-    input("What useful tools?\n 1: Caesar code\n 2: Caesar decode\n 3: MD5 code \n>> "))
+    input("What useful tools?\n 1: Caesar encode\n 2: Caesar decode\n 3: MD5 encode \n 5: sha256 encode\n 7: sha512 encode\n>> "))
   if decode_type == 1:
     exec(open("tools\decoder\cesar\cesar.py").read())
   elif decode_type == 2:
     exec(open("tools\decoder\cesar\decesar.py").read())
   elif decode_type == 3:
     exec(open("tools\decoder\md5\md5.py").read())
+  elif decode_type == 3:
+    exec(open("tools\decoder\sha256\sha256.py").read())
+  elif decode_type == 3:
+    exec(open("tools\decoder\sha512\sha512.py").read())
   else:
     print("Invalid enter type.")
 
