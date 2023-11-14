@@ -9,9 +9,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 wordlist_choice = input("Enter 1 for french_passwords_top20000.txt or 2 for rockyou.txt: ")
 
 if wordlist_choice == '1':
-    wordlist_path = "passwords\\french_passwords_top20000.txt"
+    wordlist_path = "tools/bruteforce/passwords/french_passwords_top20000.txt"
 elif wordlist_choice == '2':
-    wordlist_path = "passwords\\rockyou.txt"
+    wordlist_path = "tools/bruteforce/passwords/rockyou.txt"
 else:
     print("Invalid choice. Exiting.")
     exit()
