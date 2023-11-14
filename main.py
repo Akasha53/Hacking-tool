@@ -2,7 +2,7 @@ def main():
   function = int(
     input(
       "Welcome, "
-      "! What do you want to do today?\n 1: hack\n 2: osint\n 3: code & decode\n>> "
+      "! What do you want to do today?\n 1: bruteforce\n 2: osint\n 3: code & decode\n>> "
     ))
 
   if function == 1:
