@@ -13,17 +13,13 @@
 # How to use?
 ================================================================
 To use the code you will need to download some packages like:
-- Selenium
-- Time
+to install them copy and paste the following command in your terminal:
+pip install requirements.txt
 
 You will need, for the bruteforces, to follow the instruction to have the program work:
 - one go to the website
 - then copy the xpath of the fill to bruteforce
 - press enter, then the program will start, enjoy!
-
-You will need external libraries:
-to install it copy and paste this in your terminal:
-pip install requirements.txt
 
 # Our Discord Server
 ================================================================
