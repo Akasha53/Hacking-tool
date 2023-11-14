@@ -12,9 +12,9 @@
 
 # How to use?
 ================================================================
-To use the code you will need to download some packages like:
-to install them copy and paste the following command in your terminal:
-pip install requirements.txt
+To use the code you will need to download some packages, to install them copy and paste the following command in your terminal:
+
+- pip install requirements.txt
 
 You will need, for the bruteforces, to follow the instruction to have the program work:
 - one go to the website
