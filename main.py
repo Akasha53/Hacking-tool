@@ -34,7 +34,7 @@ def hack():
 
 
 def osint():
-  osint_type = int(input("What useful tools?\n 1: blabla\n>> "))
+  osint_type = int(input("What useful tools?\n 1: Osint book (with a huge number of website)\n 2: \n>> "))
   if osint_type == 1:
     print("")
 
