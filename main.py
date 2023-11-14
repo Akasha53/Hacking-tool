@@ -54,7 +54,7 @@ def decode():
   elif decode_type == 3:
     exec(open("tools\decoder\sha512\sha512.py").read())
   else:
-    print("Invalid enter type.")
+    print("Invalid enter.")
 
 
 if __name__ == "__main__":
