@@ -16,7 +16,7 @@
 ================================================================
 To use the code you will need to download some packages, to install them copy and paste the following command in your terminal:
 
-- pip install requirements.txt
+- pip install -r requirements.txt
 
 You will need, for the bruteforces, to follow the instructions bellow to have the program working as you wish:
 - one go to the website
