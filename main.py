@@ -45,7 +45,7 @@ def osint():
         print_osint_book()
 
 def print_osint_book():
-    with open("tools/osint/OSINT_Handbook_June-2018_Final.pdf", "rb") as file:
+    with open("./tools/osint/OSINT_Handbook_June-2018_Final.pdf", "rb") as file:
         pdf_document = fitz.open("pdf", file.read())
         for page_num in range(pdf_document.page_count):
             page = pdf_document.load_page(page_num)
@@ -62,17 +62,15 @@ def decode():
     decode_type = int(input(">> "))
     
     if decode_type == 1:
-        exec(open("tools/decoder/cesar/cesar.py").read())
+        exec(open("./tools/decoder/cesar/cesar.py").read())
     elif decode_type == 2:
-        exec(open("tools/decoder/cesar/decesar.py").read())
+        exec(open("./tools/decoder/cesar/decesar.py").read())
     elif decode_type == 3:
-        md5_input = input("Enter the string to be hashed with MD5: ")
-        md5_hash = hashlib.md5(md5_input.encode()).hexdigest()
-        print(f"MD5 hash: {md5_hash}")
+        exec(open("./tools/decoder/md5/md5.py").read())
     elif decode_type == 4:
-        exec(open("tools/decoder/sha256/sha256.py").read())
+        exec(open("./tools/decoder/sha256/sha256.py").read())
     elif decode_type == 5:
-        exec(open("tools/decoder/sha512/sha512.py").read())
+        exec(open("./tools/decoder/sha512/sha512.py").read())
     else:
         print("Invalid enter.")
 
