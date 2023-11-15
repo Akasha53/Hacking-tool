@@ -1,22 +1,10 @@
 import hashlib
 
-def sha256_encode(message, salt=None):
-    sha256_hash = hashlib.sha256(salt.encode('utf-8')) if salt else hashlib.sha256()
-    sha256_hash.update(message.encode('utf-8'))
-    return sha256_hash.hexdigest()
+def sha256_encode(message):
+    sha256_hash = hashlib.sha256(message.encode()).hexdigest()
+    return sha256_hash
 
-def main():
-    user_input = input("Enter the string to hash with SHA-256: ")
-    use_salt = input("Do you want to use a salt? (yes/no): ").lower()
-
-    if use_salt == 'yes':
-        salt = input("Enter the salt: ")
-        hashed_message = sha256_encode(user_input, salt)
-    else:
-        hashed_message = sha256_encode(user_input)
-
-    print(f"\nOriginal string: {user_input}")
-    print(f"Hashed SHA-256: {hashed_message}")
-
-if __name__ == "__main__":
-    main()
+# Exemple d'utilisation :
+message_to_encode = input("Enter the message you want to encode: ")
+sha256_encoded_message = sha256_encode(message_to_encode)
+print("SHA-256 hash:", sha256_encoded_message)
